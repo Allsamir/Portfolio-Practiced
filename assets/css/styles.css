@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+
+:root {
+  --primary-btn: #fd6e0a;
+  --hero-section-bg: #fff8f3;
+  --header-tag-color: #181818;
+  --sec-header-color: #474747;
+  --p-tag-color: #757575;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* Start of header's css  */
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: var(--hero-section-bg);
+  padding-top: 2rem;
+}
+
+.navbar {
+  background-color: transparent !important;
+  margin-bottom: 4rem;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--p-tag-color);
+  padding: 0.5rem 2rem !important;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 2.8125rem;
+  color: var(--header-tag-color);
+  font-weight: 800;
+}
+
+.R {
+  color: var(--primary-btn);
+}
+
+.primary-btn-style {
+  padding: 1.2rem 2rem;
+  border-radius: 0.3125rem;
+  background: #fd6e0a;
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+}
+
+.hero-sec {
+  background-image: url("../../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.contact-btn {
+  background-color: #fff;
+  color: var(--primary-btn);
+  border: 1px solid var(--primary-btn);
+  margin-left: 1.88rem;
+}
+
+.sub-heading {
+  font-size: 2.8125rem;
+  color: var(--sec-header-color);
+  font-weight: 600;
+}
+
+.main-heading {
+  font-size: 5.3125rem;
+  color: var(--header-tag-color);
+  font-weight: 700;
+}
+
+.details {
+  font-size: 1.125rem;
+  color: var(--p-tag-color);
+  font-weight: 400;
+}
+
+.hero-content {
+  padding-top: 5rem;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.developer-text h1 {
+  transform: rotate(-90deg);
+  position: relative;
+  top: -4rem;
+  left: -50rem;
+  letter-spacing: 2rem;
+  font-size: 6.25rem;
+  color: rgba(24, 24, 24, 0.15);
+  font-weight: 700;
+}
+/* End Of header's css */
+/* Start of about's css */
+.about {
+  margin-top: 8.23rem;
+  background: var(--hero-section-bg);
+  border-radius: 0.625rem;
+  padding: 13.3rem 9.1rem;
+}
+
+.mini-heading {
+  font-size: 2.1875rem;
+  color: var(--header-tag-color);
+  font-weight: 700;
+}
+
+.mini-p {
+  line-height: 1.875rem;
+  font-size: 1.125rem;
+  color: var(--p-tag-color);
+  font-weight: 400;
+  padding: 1.88rem 0;
+}
+
+.about-h {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--p-tag-color);
+}
+
+.about-d {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--sec-header-color);
+}
+/* End of about's css */
+/* start of what-i-do's css */
+.what-i-do {
+  margin-top: 8rem;
+}
+
+.main-content p {
+  padding: 2rem 7.9rem 3.14rem;
+}
+
+.do-mini-content {
+  padding: 2rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.do-mini-content h4 {
+  padding: 2rem 0 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--header-tag-color);
+}
+
+.do-mini-content p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--p-tag-color);
+}
+/* End of what-i-do's css */
