@@ -18,6 +18,7 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
 /* Start of header's css  */
 a {
   text-decoration: none;
@@ -82,6 +83,13 @@ hr {
   margin-left: 1.88rem;
 }
 
+.contact-btn:hover {
+  background-color: var(--primary-btn);
+  border: 1px solid #fff;
+  color: #fff;
+  transition: 0.5s;
+}
+
 .sub-heading {
   font-size: 2.8125rem;
   color: var(--sec-header-color);
@@ -98,6 +106,7 @@ hr {
   font-size: 1.125rem;
   color: var(--p-tag-color);
   font-weight: 400;
+  padding: 1.25rem 0 1.88rem;
 }
 
 .hero-content {
@@ -119,6 +128,7 @@ hr {
   color: rgba(24, 24, 24, 0.15);
   font-weight: 700;
 }
+
 /* End Of header's css */
 /* Start of about's css */
 .about {
@@ -153,6 +163,19 @@ hr {
   font-weight: 700;
   color: var(--sec-header-color);
 }
+
+@media screen and (max-width: 1201px) {
+  .about {
+    padding: 13.3rem 4rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .about {
+    text-align: left !important;
+  }
+}
+
 /* End of about's css */
 /* start of what-i-do's css */
 .what-i-do {
@@ -181,6 +204,23 @@ hr {
   font-weight: 400;
   color: var(--p-tag-color);
 }
+
+@media screen and (max-width: 1201px) {
+  .main-content p {
+    padding: 2rem 3rem 3.14rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .main-content {
+    text-align: left !important;
+  }
+
+  .main-content p {
+    padding: 2rem 0rem 3.14rem;
+  }
+}
+
 /* End of what-i-do's css */
 /* Start of resume css */
 .resume {
@@ -224,6 +264,7 @@ hr {
 .cv-btn {
   margin-top: 3.12rem;
 }
+
 /* End of resume css */
 
 footer {
