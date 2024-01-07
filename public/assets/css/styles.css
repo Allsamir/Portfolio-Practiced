@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
 /* font-family: 'Open Sans', sans-serif; */
 
 :root {
@@ -26,6 +26,11 @@ a {
 header {
   background-color: var(--hero-section-bg);
   padding-top: 2rem;
+}
+
+hr {
+  background: #d1d1d1;
+  max-width: 34.875rem;
 }
 
 .navbar {
@@ -177,3 +182,82 @@ header {
   color: var(--p-tag-color);
 }
 /* End of what-i-do's css */
+/* Start of resume css */
+.resume {
+  margin-top: 8.15rem;
+}
+
+.main-resume {
+  padding-top: 7.8rem;
+}
+
+.main-resume h3 {
+  color: var(--sec-header-color);
+  font-weight: 700;
+  font-size: 1.875rem;
+  padding-bottom: 1.87rem;
+}
+
+.sub-resume {
+  padding: 1.5rem 0;
+}
+
+.sub-resume h4 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  color: var(--sec-header-color);
+}
+
+.experience {
+  font-size: 1.25rem;
+  color: var(--p-tag-color);
+  font-weight: 600;
+  padding: 0.62rem 0 1.25rem;
+}
+
+.sub-resume p {
+  font-size: 1rem;
+  color: var(--p-tag-color);
+  font-weight: 400;
+}
+
+.cv-btn {
+  margin-top: 3.12rem;
+}
+/* End of resume css */
+
+footer {
+  margin-top: 8.12rem;
+  background-color: var(--hero-section-bg);
+  padding: 8.12rem 0;
+}
+
+.social-info h3 {
+  font-size: 2.1875rem;
+  font-weight: 700;
+  color: var(--header-tag-color);
+}
+
+.social-info p {
+  font-size: 1rem;
+  color: var(--p-tag-color);
+  font-weight: 400;
+  padding: 1.25rem 0 1.88rem;
+}
+
+.icons span {
+  margin: 0 1.5rem 0 0;
+}
+
+.contact-form input,
+textarea {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 1.12rem 1.88rem;
+  border-radius: 0.3125rem;
+  border: unset;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1.88rem 0 2rem 0;
+}
