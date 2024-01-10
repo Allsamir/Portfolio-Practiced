@@ -46,6 +46,9 @@ hr {
   padding: 0.5rem 2rem !important;
 }
 
+.active {
+  color: var(--primary-btn) !important;
+}
 .navbar-nav {
   align-items: center;
 }
